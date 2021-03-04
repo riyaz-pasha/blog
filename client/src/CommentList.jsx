@@ -7,7 +7,7 @@ const CommentList = ({ comments }) => {
             content = comment.content;
         }
 
-        if (comment.status === "rejeccted") {
+        if (comment.status === "rejected") {
             content = "This comment has been rejected";
         }
 
