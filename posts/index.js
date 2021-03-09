@@ -37,5 +37,6 @@ app.post("/events", (req, res) => {
 })
 
 app.listen(4000, () => {
+    console.log("🚀 Running on version : 0.0.2")
     console.log(`🚀 listening on ~ 4000`)
 });
